@@ -1,0 +1,9 @@
+[versions]
+kotlin = "2.3.0"
+agp = "8.13.2"
+
+[libraries]
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
