@@ -7,7 +7,7 @@ plugins {
 
 kotlin {
 
-    androidLibrary {
+    android {
         namespace = "com.example"
         compileSdk = 36
 
@@ -20,6 +20,7 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_17)
         }
     }
+
     jvm()
     iosArm64()
     iosSimulatorArm64()
